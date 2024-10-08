@@ -1,11 +1,12 @@
 <script setup>
-import{ref} from 'vue'
-const counter = ref({count: 0})
+import { ref } from 'vue'
+const counter = ref({ count: 0 })
 </script>
 
 <template>
   <div id="app">
-    <button @click="counter.count++">{{ counter.count}}</button>
+    <p>what have I done?!</p>
+    <button @click="counter.count++">{{ counter.count }}</button>
   </div>
 </template>
 
