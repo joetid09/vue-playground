@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 const counter = ref({ count: 0 })
+
 </script>
 
 <template>
