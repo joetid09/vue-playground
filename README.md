@@ -21,7 +21,7 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+npm run dev --host (host flag exposes and allows you to open in browser)
 ```
 
 ### Compile and Minify for Production
